@@ -1,0 +1,126 @@
+If you want a homepage design for your "Asa Khaiba - Home Delivery" project, here’s a clean and modern structure with HTML and CSS — perfect for food delivery, especially home-cooked meals.
+
+
+---
+
+🍽️ Sample Home Page Design (index.html)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asa Khaiba - Home Delivery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff9f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #f87537;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #f87537;
+    }
+
+    ul.menu {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.menu li {
+      background: #ffe6d9;
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f87537;
+      color: white;
+      padding: 10px;
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #f87537;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #e5662c;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Asa Khaiba Logo">
+    <h1>Asa Khaiba</h1>
+    <p>Home-cooked meals, snacks & tiffins delivered to your door</p>
+  </header>
+
+  <div class="container">
+    <h2>Our Menu Includes:</h2>
+    <ul class="menu">
+      <li>Veg Thali</li>
+      <li>Chicken Curry & Rice</li>
+      <li>Paneer Paratha</li>
+      <li>Chole Bhature</li>
+      <li>Evening Snacks Combo</li>
+    </ul>
+
+    <a href="#" class="btn">Order Now</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Asa Khaiba | All rights reserved
+  </footer>
+
+</body>
+</html>
+
+
+---
+
+🔧 Notes:
+
+Replace "logo.png" with the actual file name/path to your logo
+
+You can change menu items to match your offerings
+
+Add more features later (e.g. contact form, pricing, map, etc.)
+
+
+
+---
+
+Would you like this version uploaded into your GitHub repo directly, or should I show you how to edit it in GitHub?
+
